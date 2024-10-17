@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册成功</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 链接外部 CSS 文件 -->
+</head>
+<body>
+
+<div class="container">
+    <h2>注册成功</h2>
+    <p>感谢您注册！以下是您的注册信息：</p>
+    <p><strong>用户名:</strong> <?php echo htmlspecialchars($_POST['username']); ?></p>
+    <p><strong>邮箱:</strong> <?php echo htmlspecialchars($_POST['email']); ?></p>
+</div>
+
+</body>
+</html>
